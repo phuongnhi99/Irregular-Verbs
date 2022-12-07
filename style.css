@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+  overflow-x: hidden;
+  font-size: 15px !important;
+}
+
+.header {
+  position: relative;
+  z-index: 1000;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  /* border-bottom: 1px solid #b5b3b3; */
+}
+
+.header-logo img {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.header-text {
+  padding-left: 10px;
+}
+
+.header-auth {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ea638c;
+}
+
+.header-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.wrapper {
+  padding: 20px 0;
+}
+
+.dataTables_filter {
+  padding-bottom: 20px;
+  float: none !important;
+  text-align: left !important;
+}
+
+.dataTables_filter input {
+  min-width: 250px;
+  border-radius: 5px !important;
+  border: 1.6px solid #ea638c !important;
+  padding: 5px 10px !important;
+  margin-left: 10px !important;
+}
+
+.dataTables_filter input:focus {
+  outline: none;
+}
+
+table {
+  border: 1px solid #b5b3b3;
+  border-radius: 5px !important;
+}
+
+table th {
+  font-weight: 600 !important;
+}
+
+.footer {
+  border-top: 1px solid #b5b3b3;
+}
+
+.footer-wrap {
+  padding: 20px 0;
+  text-align: center;
+  font-weight: 500;
+}
